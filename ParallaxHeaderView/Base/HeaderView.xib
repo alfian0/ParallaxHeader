@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeaderView" customModule="ParallaxHeaderView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hibox" translatesAutoresizingMaskIntoConstraints="NO" id="cQf-Ap-bby">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="cQf-Ap-bby" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="L7F-Uw-BKT"/>
+                <constraint firstItem="cQf-Ap-bby" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="NP7-c7-lsu"/>
+                <constraint firstAttribute="trailing" secondItem="cQf-Ap-bby" secondAttribute="trailing" id="nfQ-Bs-hPy"/>
+                <constraint firstAttribute="bottom" secondItem="cQf-Ap-bby" secondAttribute="bottom" id="oh6-zR-LVF"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="340" y="433"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="hibox" width="360" height="166"/>
+    </resources>
+</document>
