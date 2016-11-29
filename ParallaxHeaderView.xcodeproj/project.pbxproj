@@ -13,8 +13,8 @@
 		8055CF741DEBE43100AF6A17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8055CF731DEBE43100AF6A17 /* Assets.xcassets */; };
 		8055CF771DEBE43100AF6A17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8055CF751DEBE43100AF6A17 /* LaunchScreen.storyboard */; };
 		8055CF801DEBE48000AF6A17 /* ParallaxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8055CF7F1DEBE48000AF6A17 /* ParallaxController.swift */; };
-		8055CF821DEBF01F00AF6A17 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8055CF811DEBF01F00AF6A17 /* HeaderView.xib */; };
-		8055CF841DEBF04400AF6A17 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8055CF831DEBF04400AF6A17 /* HeaderView.swift */; };
+		8055CF871DED35F600AF6A17 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8055CF851DED35F600AF6A17 /* HeaderView.swift */; };
+		8055CF881DED35F600AF6A17 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8055CF861DED35F600AF6A17 /* HeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		8055CF761DEBE43100AF6A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8055CF781DEBE43100AF6A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8055CF7F1DEBE48000AF6A17 /* ParallaxController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxController.swift; sourceTree = "<group>"; };
-		8055CF811DEBF01F00AF6A17 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
-		8055CF831DEBF04400AF6A17 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		8055CF851DED35F600AF6A17 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		8055CF861DED35F600AF6A17 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +60,8 @@
 		8055CF6B1DEBE43100AF6A17 /* ParallaxHeaderView */ = {
 			isa = PBXGroup;
 			children = (
+				8055CF851DED35F600AF6A17 /* HeaderView.swift */,
+				8055CF861DED35F600AF6A17 /* HeaderView.xib */,
 				8055CF6C1DEBE43100AF6A17 /* AppDelegate.swift */,
 				8055CF6E1DEBE43100AF6A17 /* ViewController.swift */,
 				8055CF701DEBE43100AF6A17 /* Main.storyboard */,
@@ -75,8 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				8055CF7F1DEBE48000AF6A17 /* ParallaxController.swift */,
-				8055CF811DEBF01F00AF6A17 /* HeaderView.xib */,
-				8055CF831DEBF04400AF6A17 /* HeaderView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -142,7 +142,7 @@
 				8055CF771DEBE43100AF6A17 /* LaunchScreen.storyboard in Resources */,
 				8055CF741DEBE43100AF6A17 /* Assets.xcassets in Resources */,
 				8055CF721DEBE43100AF6A17 /* Main.storyboard in Resources */,
-				8055CF821DEBF01F00AF6A17 /* HeaderView.xib in Resources */,
+				8055CF881DED35F600AF6A17 /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +156,7 @@
 				8055CF801DEBE48000AF6A17 /* ParallaxController.swift in Sources */,
 				8055CF6F1DEBE43100AF6A17 /* ViewController.swift in Sources */,
 				8055CF6D1DEBE43100AF6A17 /* AppDelegate.swift in Sources */,
-				8055CF841DEBF04400AF6A17 /* HeaderView.swift in Sources */,
+				8055CF871DED35F600AF6A17 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +308,7 @@
 				8055CF7D1DEBE43100AF6A17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
